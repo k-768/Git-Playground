@@ -8,6 +8,7 @@ def funcA(n):
         sum += i
     return(sum)
 
+
 # [機能B]@清家担当 ###############
 
 
