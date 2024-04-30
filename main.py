@@ -7,7 +7,7 @@ def funcA(n):
     for i in range(n+1):
         sum += i
     return(sum)
-
+#text
 
 # [機能B]@清家担当 ###############
 
