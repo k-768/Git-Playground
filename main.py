@@ -1,7 +1,12 @@
 import math
 
 # [機能A]@加治担当 #############
-
+# 1~nまでの総和を求める関数
+def funcA(n):
+    sum = 0
+    for i in range(n+1):
+        sum += i
+    return(sum)
 
 # [機能B]@清家担当 ###############
 
@@ -15,6 +20,7 @@ if __name__ == "__main__":
   print("start.")
 
   ## 機能Aの実行
+  print(funcA(5))
 
   ## 機能Bの実行
   
